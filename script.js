@@ -10,11 +10,13 @@ if (hasDriversLicense) console.log('I can drive :D');
 // const interface = 'Audio';
 // const private = 534;
 // const if = 23;
-*/
+
 
 function logger() {
     console.log('My name is Jacob');
 }
+*/
+
 /*
 // calling / running / invoking function
 logger();
@@ -51,6 +53,7 @@ const age2 = calcAge2(2002);
 console.log(age1, age2);
 */
 
+/*
 // Arrow function
 const calcAge3 = birthYear => 2037 - birthYear;
 const age3 = calcAge3(2002);
@@ -65,3 +68,18 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 
 console.log(yearsUntilRetirement(2002, 'Kuba'));
 console.log(yearsUntilRetirement(1996, 'Santiago'));
+*/
+
+function cutFruitPieces(fruit) {
+    return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges) {
+    const applePieces = cutFruitPieces(apples);
+    const orangePieces = cutFruitPieces(oranges);
+
+    const juice = `Juice with ${applePieces} pieces of apple and ${orangePieces} pieces of orange.`;
+    return juice;
+}
+
+console.log(fruitProcessor(2, 3));
