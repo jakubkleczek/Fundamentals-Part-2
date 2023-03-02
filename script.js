@@ -146,6 +146,7 @@ calcAge(years[years.length - 1])];
 console.log(ages)
 */
 
+/*
 const friends = ['Micheal', 'Steven', 'Peter'];
 
 // Add elements
@@ -177,3 +178,17 @@ console.log(friends.includes(23));
 if (friends.includes('Steven')) {
     console.log('You have a friend called Steven');
 }
+*/
+
+
+
+function calcTip(bill) {
+    return bill >=50 && bill <=300 ? bill * 0.15 : bill * 0.2;
+}
+
+// const calcTip = bill >=50 && bill <=300 ? bill * 0.15 : bill * 0.2;
+
+const bills = [125, 555, 44];
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+const total = [tips[0] + bills[0], tips[1] + bills[1], tips[2] + bills[2]];
+console.log(bills, tips, total)
