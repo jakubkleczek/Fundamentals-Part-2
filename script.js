@@ -230,6 +230,7 @@ console.log(jonas['last' + nameKey]);
 console.log(jonas.firstName + ' has ' + jonas.friends.length + ' friends, and his best friend is called ' + jonas.friends[0]);
 */
 
+/*
 const jonas = {
     firstName: 'Jonas',
     lastName: 'Schmedtmann',
@@ -264,3 +265,4 @@ console.log(jonas.age);
 
 // Challenge 
 console.log(jonas.getSummary());
+*/
