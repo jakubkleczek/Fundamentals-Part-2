@@ -266,7 +266,7 @@ console.log(jonas.age);
 // Challenge 
 console.log(jonas.getSummary());
 */
-
+/*
 const mark = {
     fullName: 'Mark Miller',
     mass: 78,
@@ -296,3 +296,4 @@ if(mark.bmi > john.bmi) {
 } else if (john.bmi > mark.bmi) {
     console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi}).`)
 }
+*/
