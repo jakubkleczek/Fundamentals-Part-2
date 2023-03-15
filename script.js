@@ -297,7 +297,7 @@ if(mark.bmi > john.bmi) {
     console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi}).`)
 }
 */
-
+/*
 // console.log('Lifting weights repetition 1 🏋🏽');
 // console.log('Lifting weights repetition 2 🏋🏽');
 // console.log('Lifting weights repetition 3 🏋🏽');
@@ -313,3 +313,18 @@ if(mark.bmi > john.bmi) {
 for(let rep = 1; rep <= 10; rep++) {
     console.log(`Lifting weights repetition ${rep} 🏋🏽`);
 }
+*/
+
+/*
+const jonasArray = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven']
+];
+
+for(let i = 0; i < jonasArray.length; i++) {
+    console.log(jonasArray[i], typeof jonasArray[i])
+}
+*/
