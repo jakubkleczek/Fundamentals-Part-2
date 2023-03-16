@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
 let hasDriversLicense = false;
@@ -179,7 +179,6 @@ if (friends.includes('Steven')) {
     console.log('You have a friend called Steven');
 }
 */
-
 
 /*
 function calcTip(bill) {
@@ -405,6 +404,7 @@ while (dice !== 6) {
 }
 */
 
+/*
 const bills = [
     22,
     295,
@@ -445,3 +445,4 @@ const calcAverage = function(arr) {
 console.log(calcAverage([2, 3, 7])); 
 console.log(calcAverage(totals));
 console.log(calcAverage(tips));
+*/
